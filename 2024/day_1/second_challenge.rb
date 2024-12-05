@@ -1,5 +1,5 @@
 data = File.read("./input.txt").split("\n").map{ |line| line.split(" ") }
-first = data.map { |line| line[0].to_i }.sort
+first = data.map { |line| line[0].to_i }
 
 second_frequencies = {}
 data.map { |line| line[1].to_i }.each do |s|
