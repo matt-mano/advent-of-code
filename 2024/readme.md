@@ -36,3 +36,9 @@ The runtime of evaluating -most- regular expressions on a list is O(length_of_in
 
 ## The solution
 This solution tokenizes the input into tokens of either mul(a,b) do() or don't() (runs in O(input_length)) and then in a second pass evaluates each token.  I'm keeping a separate tally of every mul() and only the "doing" mul()s within the pass (runs in O(input_length) also) for overall linear runtime.
+
+# Day 4
+//TODO
+
+# Day 5
+//TODO
